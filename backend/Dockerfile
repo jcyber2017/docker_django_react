@@ -12,5 +12,4 @@ RUN pip install --upgrade pip
 RUN pip install gunicorn
 RUN pip install -r /app/backend/requirements.txt
 
-# ADD ./docker /app/docker
-ADD ./ /app/backend
+ADD ./ /app/backend/
