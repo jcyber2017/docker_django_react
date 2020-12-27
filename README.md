@@ -6,4 +6,4 @@ This project serves as an example of a deployment frontend (ReactJS) and backend
 How to run
 Make sure you have docker and docker-compose installed and run
 
-docker-compose up
+docker-compose -f docker-compose-dev.yml up
